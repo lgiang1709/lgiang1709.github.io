@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LG Auto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrQkTyN9rjIb8EjhE7Z5Fh5I2VJx2TlOjThC1qPpURdT8vWp0P7QDh5gO9/79B7XWb0q1t0jKY2Qc2zxQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>LG Auto</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#prices">Prices</a></li>
+                    <li><a href="#contact" class="btn">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Your One-Stop Car Care Solution</h2>
+            <p>Professional car wash, spa, and film protection services</p>
+            <a href="#services" class="btn">Explore Our Services</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-item">
+                <img src="car-wash.jpg" alt="Car Wash">
+                <h3>Car Wash</h3>
+                <p>Complete exterior and interior car wash with premium products.</p>
+            </div>
+            <div class="service-item">
+                <img src="car-spa.jpg" alt="Car Spa">
+                <h3>Car Spa</h3>
+                <p>Detailing and spa services to keep your car looking brand new.</p>
+            </div>
+            <div class="service-item">
+                <img src="interior-care.jpg" alt="Interior Care">
+                <h3>Interior Care</h3>
+                <p>Professional interior cleaning and maintenance services.</p>
+            </div>
+            <div class="service-item">
+                <img src="film-protection.jpg" alt="Film Protection">
+                <h3>Film Protection</h3>
+                <p>High-quality film protection to preserve your car's paint.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 LG Auto. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

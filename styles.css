@@ -1,0 +1,175 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background color */
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+header nav ul li a.btn {
+    background-color: #ff5733;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 150px 20px;
+    color: #333;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.5em; /* Increased font size for better readability */
+    margin-bottom: 20px; /* Add margin to separate text from button */
+    line-height: 1.6; 
+    margin-top: -30px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background: #ff5733;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hero .btn:hover {
+    background: #ff2e00;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-item {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.service-item:hover {
+    transform: translateY(-5px); /* Move up on hover */
+}
+
+.service-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.service-item:hover img {
+    transform: scale(1.05); /* Scale up slightly on hover */
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #ff5733;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #ff2e00;
+}
+
+footer {
+    background: #fff;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer .social-icons {
+    margin-top: 20px; /* Adjust margin */
+}
+
+footer .social-icons a {
+    color: #333;
+    margin: 0 15px; /* Adjust spacing */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add transition effect */
+}
+
+footer .social-icons a:hover {
+    color: #ff5733;
+}
